@@ -1,9 +1,45 @@
-:root {
+/*
     --primary: #efefef;
     --backgroundtext; #caebf2;
     --watermelon: #ff3b3f;
     --carbon: #a9a9a9;
+*/
+h1{
+    text-align: center;
+    font-size-adjust: 150%;
 }
-nav {
-    background-color: #caebf2;
+
+#img{
+    display: flex;
+    justify-content:inherit;
+    
 }
+
+menu{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: space-between;
+    padding: 2%;
+}
+section h2{
+    text-decoration: solid;
+    font-size: 125%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#projects {
+    font-size: 100%;
+    text-decoration: underline;
+}
+
+footer h4{
+      text-align: center
+  }
+
+  @media screen and (max-width:768px) {
+      main, nav {
+          flex-direction: column;
+      }
+  }
