@@ -30,7 +30,7 @@ menu{
 	text-decoration:underline;
     justify-content: flex-end;
     justify-content: space-evenly;
-    align-items: center
+    align-items: center;
 	font-size:16px;
 	padding:2%;
 }
@@ -62,4 +62,4 @@ footer h4{
       main, nav {
           flex-direction: column;
       }
-  }
+    }
